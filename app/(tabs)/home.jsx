@@ -18,13 +18,7 @@ const Home = () => {
     await refetch();
     setRefreshing(false);
   };
-
-  // one flatlist
-  // with list header
-  // and horizontal flatlist
-
-  //  we cannot do that with just scrollview as there's both horizontal and vertical scroll (two flat lists, within trending)
-
+  
   return (
     <SafeAreaView className="bg-primary">
       <FlatList
@@ -47,7 +41,7 @@ const Home = () => {
                   Welcome Back
                 </Text>
                 <Text className="text-2xl font-psemibold text-white">
-                  JSMastery
+                  FikarSuwardi
                 </Text>
               </View>
 
